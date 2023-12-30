@@ -9,7 +9,7 @@
 float playerPos1, playerdPos1, playerPos2, playerdPos2;
 float arenaHalfSizeX = 85, arenaHalfSizeY = 45;
 float playerHalfSizeX = 2.5, playerHalfSizeY = 12;
-float ballPosX, ballPosY, balldPosX = 100, balldPosY, ballHalfSize = 1;
+float ballPosX, ballPosY, balldPosX = 130, balldPosY, ballHalfSize = 1;
 
 int playerScore1, playerScore2;
 
@@ -51,8 +51,16 @@ simulateGame(Input* input, float dt) {
 	//            V
 	float playerddPos1 = 0.f; // acceleration
 
+#if 0
 	if (isDown(BUTTON_UP)) playerddPos1 += 2000;
 	if (isDown(BUTTON_DOWN)) playerddPos1 -= 2000;
+#else
+	//if (ballPosY > playerPos1) playerddPos1 += 1300;
+	//if (ballPosY < playerPos1) playerddPos1 -= 1300;
+	playerddPos1 = (ballPosY - playerPos1) * 100;
+	if (playerddPos1 > 1300) playerddPos1 = 1300;
+	if (playerddPos1 < -1300) playerddPos1 = -1300;
+#endif
 
 	float playerddPos2 = 0.f;
 	if (isDown(BUTTON_W)) playerddPos2 += 2000;
