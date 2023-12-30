@@ -1,0 +1,14 @@
+﻿  Win32Platform.cpp
+C:\Users\pukat\source\repos\Pong Game\Pong Game\renderer.cpp(43,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Win32Platform.cpp')
+  
+C:\Users\pukat\source\repos\Pong Game\Pong Game\renderer.cpp(44,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Win32Platform.cpp')
+  
+C:\Users\pukat\source\repos\Pong Game\Pong Game\renderer.cpp(45,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Win32Platform.cpp')
+  
+C:\Users\pukat\source\repos\Pong Game\Pong Game\renderer.cpp(46,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Win32Platform.cpp')
+  
+  Pong Game.vcxproj -> C:\Users\pukat\source\repos\Pong Game\x64\Debug\Pong Game.exe
