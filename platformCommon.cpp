@@ -11,6 +11,8 @@ enum {
 	BUTTON_COUNT
 };
 
+
+
 struct Input {
 	ButtonState buttons[BUTTON_COUNT];
 };

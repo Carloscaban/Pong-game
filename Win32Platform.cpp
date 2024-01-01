@@ -83,7 +83,7 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int n
 	while (running) {
 		// input
 		MSG message;
-
+		
 		for (int i = 0; i < BUTTON_COUNT; i++) {
 			input.buttons[i].hasChanged = false;
 		}

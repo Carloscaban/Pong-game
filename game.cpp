@@ -51,6 +51,9 @@ simulateGame(Input* input, float dt) {
 	//            V
 	float playerddPos1 = 0.f; // acceleration
 
+
+// Intelligent Enemy
+
 #if 0
 	if (isDown(BUTTON_UP)) playerddPos1 += 2000;
 	if (isDown(BUTTON_DOWN)) playerddPos1 -= 2000;
